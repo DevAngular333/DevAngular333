@@ -49,6 +49,10 @@ Bridge file-based từ Markdown/JSON export sang project fields, có smoke CLI v
 3. Đọc lại commit, release, tree và URL công khai sau khi phát hành.
 4. Ghi rõ phần đã đọc code, đã chạy, đã phát hành và chưa kiểm chứng.
 
+## Portfolio và bằng chứng trực quan
+
+Xem [portfolio đã triển khai](https://devangular333.github.io/devangular333-portfolio/) để đi từ vấn đề → luồng dùng thử → repo, release, case study và ảnh chụp từ phiên bản đã chạy.
+
 ## Selected work
 
 - [design-os-knowledge-builder](https://github.com/DevAngular333/design-os-knowledge-builder) — compiler tạo knowledge packs local-first; backlog ưu tiên tiếp theo.
