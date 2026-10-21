@@ -23,15 +23,24 @@ Fork PolyForm Shield của [`jangtrinh/design-os-pedagogy`](https://github.com/j
 
 ### [Code2Flow](https://github.com/DevAngular333/design-os-code)
 
-**Đang audit nguồn và license**
+**Đã phát hành · v0.2.0-devangular333**
 
-Công cụ chuyển codebase web thành flow canvas có screenshot và evidence `file:line`. Repo hiện công khai; tôi đang xác minh provenance, license và luồng chạy trước khi nhận là flagship.
+Công cụ chuyển codebase web thành flow canvas có screenshot và evidence `file:line`. Tôi thêm smoke offline để scan fixture static HTML và xuất viewer self-contained.
 
-### [Marketing Seeding System](https://github.com/DevAngular333/marketing-seeding)
+- [Release đã xác minh](https://github.com/DevAngular333/design-os-code/releases/tag/v0.2.0-devangular333)
+- [Case study](https://github.com/DevAngular333/design-os-code/blob/master/docs/case-study.md)
+- Thử nhanh: `npm ci && npm run smoke`
+- Giới hạn: smoke dùng fixture tổng hợp; browser capture của app bất kỳ cần môi trường riêng.
 
-**Đang hoàn thiện public-safe boundary**
+### [InkOS × PrintFilm Lab](https://github.com/DevAngular333/inkos-printfilm-lab)
 
-Dashboard local cho campaign brief, draft, review, approval và evidence. Runtime state/token giữ local; repo không tự claim social publishing đã xảy ra.
+**Đã phát hành · v0.2.0-devangular333**
+
+Bridge file-based từ Markdown/JSON export sang project fields, có smoke CLI và case study. InkOS được ghi nhận AGPL-3.0; license PrintFilm chưa xác minh.
+
+- [Release đã xác minh](https://github.com/DevAngular333/inkos-printfilm-lab/releases/tag/v0.2.0-devangular333)
+- [Case study](https://github.com/DevAngular333/inkos-printfilm-lab/blob/main/docs/case-study.md)
+- Thử nhanh: `npm test && npm run smoke`
 
 ## Cách tôi kiểm chứng
 
@@ -42,8 +51,8 @@ Dashboard local cho campaign brief, draft, review, approval và evidence. Runtim
 
 ## Selected work
 
-- [design-os-knowledge-builder](https://github.com/DevAngular333/design-os-knowledge-builder) — compiler tạo knowledge packs local-first; đang trong backlog phát hành.
-- [InkOS × PrintFilm Lab](https://github.com/DevAngular333/inkos-printfilm-lab) — bridge format giữa hai ứng dụng creative; cần bổ sung license/provenance trước khi pin.
+- [design-os-knowledge-builder](https://github.com/DevAngular333/design-os-knowledge-builder) — compiler tạo knowledge packs local-first; backlog ưu tiên tiếp theo.
+- [marketing-seeding](https://github.com/DevAngular333/marketing-seeding) — dashboard local cho campaign brief, draft, review, approval và evidence; public-safe audit tiếp tục.
 - [DevAngular333 repositories](https://github.com/DevAngular333?tab=repositories)
 
 ## Liên hệ
