@@ -12,25 +12,27 @@ Tôi tập trung vào ba trụ cột:
 
 ### [Agent Teacher · Vietnamese fraction rehearsal](https://github.com/DevAngular333/design-os-pedagogy)
 
-**Đã phát hành · v0.1.0-devangular333**
+**Đã phát hành · v0.1.1-devangular333**
 
 Fork PolyForm Shield của [`jangtrinh/design-os-pedagogy`](https://github.com/jangtrinh/design-os-pedagogy). Tôi thêm smoke runner bằng Python standard library để khởi động HTTP server thật, hoàn tất một phiên rehearsal, kiểm tra replay và đọc Markdown export.
 
-- [Release đã xác minh](https://github.com/DevAngular333/design-os-pedagogy/releases/tag/v0.1.0-devangular333)
+- [Release đã xác minh](https://github.com/DevAngular333/design-os-pedagogy/releases/tag/v0.1.1-devangular333)
 - [Case study](https://github.com/DevAngular333/design-os-pedagogy/blob/main/docs/case-study.md)
 - Thử nhanh: `python3 scripts/smoke_flow.py`
 - Giới hạn: authored simulation; chưa semantic grading, expert review, pilot hay certification.
 
 ### [Code2Flow](https://github.com/DevAngular333/design-os-code)
 
-**Đã phát hành · v0.2.0-devangular333**
+**Đã phát hành · v0.5.0-devangular333**
 
 Công cụ chuyển codebase web thành flow canvas có screenshot và evidence `file:line`. Tôi thêm smoke offline để scan fixture static HTML và xuất viewer self-contained.
 
-- [Release đã xác minh](https://github.com/DevAngular333/design-os-code/releases/tag/v0.2.0-devangular333)
+- [Release đã xác minh](https://github.com/DevAngular333/design-os-code/releases/tag/v0.5.0-devangular333)
 - [Case study](https://github.com/DevAngular333/design-os-code/blob/master/docs/case-study.md)
-- Thử nhanh: `npm ci && npm run smoke`
-- Giới hạn: smoke dùng fixture tổng hợp; browser capture của app bất kỳ cần môi trường riêng.
+- [Try demo](https://devangular333.github.io/devangular333-portfolio/review-pack-demo.html)
+- Thử nhanh: `npm ci && npm run review:demo`
+- Đóng góp riêng: Review Pack so sánh hai graph revision, giữ source evidence, cho reviewer ghi chú/trạng thái và export JSON.
+- Giới hạn: quan hệ `related/unrelated` là focus-term matching xác định; browser/runtime semantics vẫn cần kiểm tra riêng.
 
 ### [InkOS × PrintFilm Lab](https://github.com/DevAngular333/inkos-printfilm-lab)
 
