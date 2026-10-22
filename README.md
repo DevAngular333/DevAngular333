@@ -1,5 +1,11 @@
 # DevAngular333
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-hero-light.svg">
+  <img src="./assets/profile-hero-dark.png" alt="DevAngular333 — AI systems with visible evidence">
+</picture>
+
 ## Tôi xây AI systems và developer tools thành sản phẩm thực dụng, có demo và quy trình kiểm chứng.
 
 Tôi tập trung vào ba trụ cột:
@@ -9,6 +15,13 @@ Tôi tập trung vào ba trụ cột:
 - **Learning và creative systems** — biến ý tưởng thành luồng sử dụng cụ thể.
 
 ## Dự án nổi bật
+
+<a href="https://devangular333.github.io/devangular333-portfolio/#review-pack-video"><img src="./assets/code2flow-review-pack-cover.png" alt="Code2Flow Review Pack cover" width="49%"></a>
+<a href="https://devangular333.github.io/devangular333-portfolio/#review-pack-video"><img src="./assets/agent-teacher-cover.png" alt="Agent Teacher cover" width="49%"></a>
+
+<a href="https://devangular333.github.io/devangular333-portfolio/#review-pack-video"><img src="./assets/inkos-bridge-cover.png" alt="InkOS bridge cover" width="49%"></a>
+
+**Xem sản phẩm hoạt động:** [video chính và demo trong portfolio](https://devangular333.github.io/devangular333-portfolio/#review-pack-video) · [GIF preview](https://devangular333.github.io/devangular333-portfolio/assets/code2flow-review-pack-preview.gif) · [release media](https://github.com/DevAngular333/design-os-code/releases/tag/v0.5.1-devangular333)
 
 ### [Agent Teacher · Vietnamese fraction rehearsal](https://github.com/DevAngular333/design-os-pedagogy)
 
@@ -21,15 +34,16 @@ Fork PolyForm Shield của [`jangtrinh/design-os-pedagogy`](https://github.com/j
 - Thử nhanh: `python3 scripts/smoke_flow.py`
 - Giới hạn: authored simulation; chưa semantic grading, expert review, pilot hay certification.
 
-### [Code2Flow](https://github.com/DevAngular333/design-os-code)
+### [Code2Flow Review Pack](https://github.com/DevAngular333/design-os-code)
 
-**Đã phát hành · v0.5.0-devangular333**
+**Đã phát hành · v0.5.1-devangular333**
 
 Công cụ chuyển codebase web thành flow canvas có screenshot và evidence `file:line`. Tôi thêm smoke offline để scan fixture static HTML và xuất viewer self-contained.
 
-- [Release đã xác minh](https://github.com/DevAngular333/design-os-code/releases/tag/v0.5.0-devangular333)
+- [Release đã xác minh](https://github.com/DevAngular333/design-os-code/releases/tag/v0.5.1-devangular333)
 - [Case study](https://github.com/DevAngular333/design-os-code/blob/master/docs/case-study.md)
 - [Try demo](https://devangular333.github.io/devangular333-portfolio/review-pack-demo.html)
+- [Video 58 giây và poster](https://devangular333.github.io/devangular333-portfolio/#review-pack-video)
 - Thử nhanh: `npm ci && npm run review:demo`
 - Đóng góp riêng: Review Pack so sánh hai graph revision, giữ source evidence, cho reviewer ghi chú/trạng thái và export JSON.
 - Giới hạn: quan hệ `related/unrelated` là focus-term matching xác định; browser/runtime semantics vẫn cần kiểm tra riêng.
