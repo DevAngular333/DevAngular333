@@ -23,6 +23,8 @@ Tôi tập trung vào ba trụ cột:
 
 **Xem sản phẩm hoạt động:** [video chính và demo trong portfolio](https://devangular333.github.io/devangular333-portfolio/#review-pack-video) · [GIF preview](https://devangular333.github.io/devangular333-portfolio/assets/code2flow-review-pack-preview.gif) · [release media](https://github.com/DevAngular333/design-os-code/releases/tag/v0.5.1-devangular333)
 
+[![Code2Flow Review Pack preview](https://devangular333.github.io/devangular333-portfolio/assets/code2flow-review-pack-preview.gif)](https://devangular333.github.io/devangular333-portfolio/#review-pack-video)
+
 ### [Agent Teacher · Vietnamese fraction rehearsal](https://github.com/DevAngular333/design-os-pedagogy)
 
 **Đã phát hành · v0.1.1-devangular333**
