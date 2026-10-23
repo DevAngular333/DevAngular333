@@ -17,38 +17,37 @@ Tôi tập trung vào ba trụ cột:
 ## Dự án nổi bật
 
 <a href="https://devangular333.github.io/devangular333-portfolio/#review-pack-video"><img src="./assets/code2flow-review-pack-cover.png" alt="Code2Flow Review Pack cover" width="49%"></a>
-<a href="https://devangular333.github.io/devangular333-portfolio/#review-pack-video"><img src="./assets/agent-teacher-cover.png" alt="Agent Teacher cover" width="49%"></a>
+<a href="https://devangular333.github.io/devangular333-portfolio/#agent-teacher"><img src="./assets/agent-teacher-cover.png" alt="Agent Teacher cover" width="49%"></a>
 
-<a href="https://devangular333.github.io/devangular333-portfolio/#review-pack-video"><img src="./assets/inkos-bridge-cover.png" alt="InkOS bridge cover" width="49%"></a>
+<a href="https://devangular333.github.io/devangular333-portfolio/#inkos-printfilm-lab"><img src="./assets/inkos-bridge-cover.png" alt="InkOS bridge cover" width="49%"></a>
 
 **Xem sản phẩm hoạt động:** [video chính và demo trong portfolio](https://devangular333.github.io/devangular333-portfolio/#review-pack-video) · [GIF preview](https://devangular333.github.io/devangular333-portfolio/assets/code2flow-review-pack-preview.gif) · [release media](https://github.com/DevAngular333/design-os-code/releases/tag/v0.5.1-devangular333)
 
 [![Code2Flow Review Pack preview](https://devangular333.github.io/devangular333-portfolio/assets/code2flow-review-pack-preview.gif)](https://devangular333.github.io/devangular333-portfolio/#review-pack-video)
 
-### [Agent Teacher · Vietnamese fraction rehearsal](https://github.com/DevAngular333/design-os-pedagogy)
-
-**Đã phát hành · v0.1.1-devangular333**
-
-Fork PolyForm Shield của [`jangtrinh/design-os-pedagogy`](https://github.com/jangtrinh/design-os-pedagogy). Tôi thêm smoke runner bằng Python standard library để khởi động HTTP server thật, hoàn tất một phiên rehearsal, kiểm tra replay và đọc Markdown export.
-
-- [Release đã xác minh](https://github.com/DevAngular333/design-os-pedagogy/releases/tag/v0.1.1-devangular333)
-- [Case study](https://github.com/DevAngular333/design-os-pedagogy/blob/main/docs/case-study.md)
-- Thử nhanh: `python3 scripts/smoke_flow.py`
-- Giới hạn: authored simulation; chưa semantic grading, expert review, pilot hay certification.
-
 ### [Code2Flow Review Pack](https://github.com/DevAngular333/design-os-code)
 
 **Đã phát hành · v0.5.1-devangular333**
 
-Công cụ chuyển codebase web thành flow canvas có screenshot và evidence `file:line`. Tôi thêm smoke offline để scan fixture static HTML và xuất viewer self-contained.
+Code2Flow chuyển codebase web thành flow canvas có screenshot và evidence `file:line`. Đóng góp riêng của tôi là Review Pack: so sánh hai graph revision, đưa thay đổi vào danh sách reviewer có thể mở source evidence, ghi chú/trạng thái và export JSON. Demo dùng fixture CRM synthetic có nhãn; smoke offline chỉ kiểm tra đường chạy của công cụ.
 
 - [Release đã xác minh](https://github.com/DevAngular333/design-os-code/releases/tag/v0.5.1-devangular333)
 - [Case study](https://github.com/DevAngular333/design-os-code/blob/master/docs/case-study.md)
 - [Try demo](https://devangular333.github.io/devangular333-portfolio/review-pack-demo.html)
 - [Video 58 giây và poster](https://devangular333.github.io/devangular333-portfolio/#review-pack-video)
 - Thử nhanh: `npm ci && npm run review:demo`
-- Đóng góp riêng: Review Pack so sánh hai graph revision, giữ source evidence, cho reviewer ghi chú/trạng thái và export JSON.
-- Giới hạn: quan hệ `related/unrelated` là focus-term matching xác định; browser/runtime semantics vẫn cần kiểm tra riêng.
+- Giới hạn: `related/unrelated` là focus-term matching xác định trên graph label/path; nó không suy luận semantic impact và không thay thế kiểm tra runtime.
+
+### [Agent Teacher · Vietnamese fraction rehearsal](https://github.com/DevAngular333/design-os-pedagogy)
+
+**Đã phát hành · v0.1.1-devangular333**
+
+Fork PolyForm Shield của [`jangtrinh/design-os-pedagogy`](https://github.com/jangtrinh/design-os-pedagogy). Tôi phát triển luồng rehearsal local cho bài phân số tiếng Việt: coaching authored, transfer, replay và Markdown export để người dạy đọc lại một phiên cụ thể. Smoke runner bằng Python standard library chỉ là kiểm tra kỹ thuật cho HTTP, replay và export.
+
+- [Release đã xác minh](https://github.com/DevAngular333/design-os-pedagogy/releases/tag/v0.1.1-devangular333)
+- [Case study](https://github.com/DevAngular333/design-os-pedagogy/blob/main/docs/case-study.md)
+- Thử nhanh: `python3 scripts/smoke_flow.py`
+- Giới hạn: dữ liệu là authored simulation; chưa semantic grading, expert review, pilot hay certification.
 
 ### [InkOS × PrintFilm Lab](https://github.com/DevAngular333/inkos-printfilm-lab)
 
